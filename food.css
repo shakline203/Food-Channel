@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+span{
+    color: crimson;}
+button{
+    background-color: crimson;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px rgb(245, 191, 191);
+    cursor:pointer;
+}
+button:hover{
+    background-color: white;
+    color: crimson;
+    transition: all .4s ease;
+}
+h1{
+    font-size: 3rem;
+    font-weight:600;
+    color:rgb(117, 118, 124);
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight:600;
+    color:rgb(117, 118, 124);
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -2%;
+}
+
+header{
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 25px;
+   
+}
+.sec-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+        
+}
+.items{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-bottom: 2%;
+}
+ 
+.items img{
+    box-shadow: 10px 10px 40px rgb(245, 191, 191);
+    width: 100%;
+   
+           
+}
+
+.sec-2{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 40px rgb(245, 191, 191);
+}
+.sec-2 .items img{
+    width: 50%;
+    padding-left: 10%;
+}
+.sec-3 .info{
+    text-align: center;
+}
+
+.sec-3 .content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.sec-3 .content .items-2{
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sec-3 .content .items-2 img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+
+
+footer h3{
+    margin-top: -1%;
+}
+
+.sec-4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:7%;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2% 3%;
+    border-radius: 20px;
+        
+}
+.sec-4 div{
+    margin-left: 10%;
+    
+
+    align-items: center;
+}
+.sec-4 div h2{
+    color: black;
+    font-weight: 600;
+}
